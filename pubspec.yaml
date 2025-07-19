@@ -1,0 +1,30 @@
+name: grocery_app
+description: A simple grocery shopping UI built with Flutter.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  flutter_rating_bar: ^4.0.0
+
+  # Cupertino icons for iOS-style icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/produce.jpg
+    - assets/images/meat.png
+    - assets/images/fresh.png
+    - assets/images/bakery.png
+    - assets/images/grain.png
+    - assets/images/organic.png
